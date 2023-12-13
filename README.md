@@ -26,4 +26,7 @@ Tool for editing AxySnake textures (also kinda works with AirXonix)
 
 #
 ### Replacing BMP files
-When replacing BMP files, make sure that the file that you are trying to import is a 16 bit BMP file that has the same dimensions as the texture that you are trying to edit
+When replacing a BMP file you must verify that:
+- The imported file is a 16 bit BMP file
+- The imported file has the same dimensions as the texture that you are replacing
+- The imported file is flipped vertically
